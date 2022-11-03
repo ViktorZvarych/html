@@ -1,0 +1,21 @@
+:root {
+    --color-1: #0000ff;
+    --color-2: #00ffff;
+}
+    
+li {
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid var(--color-1);
+    border-radius: 3px;
+    background-color: var(--color-2);
+}
