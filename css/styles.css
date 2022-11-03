@@ -2,9 +2,16 @@
     --color-1: #0000ff;
     --color-2: #00ffff;
 }
-    
+
 li {
     list-style-type: none;
+}
+
+.hero-img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-list {
