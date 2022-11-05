@@ -15,31 +15,54 @@
         <h1>HTML tags</h1>
         <nav>
             <ul class="nav-list">
-                <li class="nav-item">Main</li>
-                <li class="nav-item">Content</li>
-                <li class="nav-item">Text</li>
-                <li class="nav-item">Inline text</li>
-                <li class="nav-item">Image and multimedia</li>
-                <li class="nav-item">Table</li>
-                <li class="nav-item">Forms</li>
-                <li class="nav-item">Interective elements</li>
+                <li class="nav-item">
+                    <a href="#basic-tags">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#content-tags">Content</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#text-tags">Text</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#inline-text-tags">Inline text tags</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#multimedia-tags">Image and multimedia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#table-tags">Table</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#forms-tags">Forms</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#interective-elements-tags">Interective elements</a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
 
-        <img class="hero-img" src="img/html-tags-list.webp" alt="clean window">
+        <img class="hero-img" src="img/html-tags-list.webp" alt="List of types of html tags">
 
-        <section id="main-tags" class="section">
-            <h2 class="title">Main tags</h2>
+        <section id="basic-tags" class="section">
+            <h2 class="title">Basic tags</h2>
             <article class="article">
                 <h3>html</h3>
-                <p>The html element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</p>
+                <p>The html element represents the root (top-level element) of an HTML document, so it is also referred
+                    to as the root element. All other elements must be descendants of this element.</p>
             </article>
-            <article class="article"><h3>head</h3> </article>
-            <article class="article"><h3>main</h3> </article>
-            <article class="article"><h3>footer</h3> </article>
+            <article class="article">
+                <h3>head</h3>
+            </article>
+            <article class="article">
+                <h3>main</h3>
+            </article>
+            <article class="article">
+                <h3>footer</h3>
+            </article>
             <!-- <article class="article"></article> -->
         </section>
 
@@ -71,7 +94,7 @@
         </section>
 
         <section class="section">
-            <h2 class="title">Image and multimedia tags</h2>
+            <h2 id="multimedia-tags" class="title">Image and multimedia tags</h2>
             <!-- <article class="article"></article>
             <article class="article"></article>
             <article class="article"></article>
@@ -80,7 +103,7 @@
         </section>
 
         <section class="section">
-            <h2 class="title">Table tags</h2>
+            <h2 id="table-tags" class="title">Table tags</h2>
             <!-- <article class="article"></article>
             <article class="article"></article>
             <article class="article"></article>
@@ -89,7 +112,7 @@
         </section>
 
         <section class="section">
-            <h2 class="title">Forms tags</h2>
+            <h2 id="forms-tags" class="title">Forms tags</h2>
             <!-- <article class="article"></article>
             <article class="article"></article>
             <article class="article"></article>
@@ -98,17 +121,45 @@
         </section>
 
         <section class="section">
-            <h2 class="title">Interective elements tags</h2>
-            <!-- <article class="article"></article>
-            <article class="article"></article>
-            <article class="article"></article>
+            <h2 id="interective-elements-tags" class="title">Interective elements tags</h2>
+           <article class="article">
+                <h3>dl</h3>
+                <details>
+                    <dl>
+                        <dt>dl: The Description List element</dt>
+                        <dd>The dl HTML element represents a description list. 
+                            The element encloses a list of groups of terms 
+                            (specified using the dt element) and descriptions 
+                            (provided by dd elements). Common uses for this element 
+                            are to implement a glossary or to display metadata 
+                            (a list of key-value pairs).</dd>
+                    </dl>
+                </details>
+            </article>
+            <article class="article">
+                <h3>details</h3>
+                <details>
+                    <summary>details: The Details disclosure element</summary>
+                    <p>The <details> HTML element creates a disclosure widget 
+                        in which information is visible only when the widget 
+                        is toggled into an "open" state. A summary or label must 
+                        be provided using the element.</p>
+                    <p>A disclosure widget is typically presented onscreen using 
+                        a small triangle which rotates (or twists) to indicate 
+                        open/closed status, with a label next to the triangle. 
+                        The contents of the element are used as the label for the disclosure widget.</p>
+                  </details>
+            </article>
+             <!-- <article class="article"></article>
             <article class="article"></article>
             <article class="article"></article> -->
         </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
+        <p class="copyright">© Created by Viktor Zvarych</p>
+        <p class class="rights-reserved">All rights Reserved</p>
 
     </footer>
 

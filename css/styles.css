@@ -1,10 +1,14 @@
 :root {
     --color-1: #0000ff;
-    --color-2: #00ffff;
+    --color-2: #00ffff33;
 }
 
 li {
     list-style-type: none;
+}
+
+a {
+    color: inherit;
 }
 
 .hero-img {
@@ -24,5 +28,31 @@ li {
     text-align: center;
     border: 1px solid var(--color-1);
     border-radius: 3px;
+    background-color: var(--color-2);
+}
+
+.nav-item:hover {
+    background-color: var(--color-1);
+    color: aliceblue;
+}
+
+.nav-item > :focus {
+    background-color: var(--color-1);
+    color: aliceblue;
+}
+
+.section {
+    margin: 10px;
+    border: 1px solid var(--color-1);
+    background-color: var(--color-2);    
+}
+
+.title {
+    text-align: center;
+}
+
+.article {
+    margin: 5px;
+    border: 0.5px solid var(--color-1);
     background-color: var(--color-2);
 }
